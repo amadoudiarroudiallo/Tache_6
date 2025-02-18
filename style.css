@@ -1,0 +1,66 @@
+header{
+    height: 10vh;
+    justify-content: space-around;
+}
+
+header img{
+    width: 50%;
+    height: 50%;
+}
+
+.main-btn{
+    display: inline-block;
+    background-color: orange;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 8px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 550;
+    margin-left: 200px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.nav-link{
+    color: #000;
+}
+span{
+    color: rgb(245, 63, 63);
+}
+.active{
+    color: orange;
+}
+
+.nav-link:hover{
+    color: orange   ;
+    width: auto;
+    height: 35px;
+}
+
+/* ----------------- premier section------------------ */
+.sec1{
+    height: 100vh;
+}
+
+.sec1 img{
+    margin-top: -8vh;
+}
+
+.sec1 .container h1{
+    margin-top: 15%;
+    font-weight: 700;
+    font-size: 47px;
+}
+
+.sec1 .btn{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    font-weight: 400;
+    border-radius: 30px;
+    width: 50vh;
+    height: 8vh;
+    margin-top: 10%;
+}
