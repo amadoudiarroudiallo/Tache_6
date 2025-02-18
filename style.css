@@ -26,6 +26,7 @@ header img{
 .nav-link{
     color: #000;
 }
+
 span{
     color: rgb(245, 63, 63);
 }
@@ -40,16 +41,7 @@ span{
 }
 
 /* ----------------- premier section------------------ */
-.sec1{
-    height: 100vh;
-}
-
-.sec1 img{
-    margin-top: -8vh;
-}
-
 .sec1 .container h1{
-    margin-top: 15%;
     font-weight: 700;
     font-size: 47px;
 }
@@ -63,4 +55,27 @@ span{
     width: 50vh;
     height: 8vh;
     margin-top: 10%;
+}
+
+
+/* ----------------- deuxiemes section------------------ */
+.sec2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.card:hover{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.COLOR{
+    background: linear-gradient(45deg, red, #199da0);
+    border-radius: 20px;
+    color: #fff;
+    width: 35%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+    
 }
