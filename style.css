@@ -64,7 +64,7 @@ span{
     height: 100px;
 }
 
-.card:hover{
+.sec2 .card:hover{
     cursor: pointer;
     overflow: hidden;
 }
@@ -76,6 +76,15 @@ span{
     width: 35%;
     text-align: center;
     justify-content: center;
-    margin-left: 30%;
-    
+    margin-left: 30%; 
+}
+
+ion-icon{
+    color: orange;
+    width: 50px;
+    height: 50px;
+}
+
+.card{
+    justify-content: space-around;
 }
